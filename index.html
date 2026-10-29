@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+
+    <section class="box">
+        <header class="lista-tarefas">
+        <h1>Lista de tarefas</h1> 
+        <img class="imgLista" src="assets/lista-tarefas.gif" alt="Animação lista de tarefas">
+
+        </header>
+
+         <div class="card-tarefa">
+            <ul class="lista-itens" id="listaTarefas">
+                <li>
+            <input type="checkbox" id="tarefa1">
+            <label for="tarefa1">Limpar a casa.</label>
+            <button id="botaoExcluir" type="button" aria-label="Excluir"><i class="bi bi-trash" aria-hidden="true"></i></button>
+                </li>
+            
+     
+                <li>
+            <input type="checkbox" id="tarefa2">
+            <label for="tarefa2"> Trocar a água e dar ração pro pet.</label>
+            <button id="botaoExcluir" type="button" aria-label="Excluir"><i class="bi bi-trash" aria-hidden="true"></i></button>
+
+                </li>
+    
+            
+                <li>
+            <input type="checkbox" id="tarefa3">
+            <label for="tarefa3">Fazer comida.</label>
+            <button id="botaoExcluir" type="button" aria-label="Excluir"><i class="bi bi-trash" aria-hidden="true"></i></button>
+
+                </li>
+
+                <li>
+            <input type="checkbox" id="tarefa4">
+            <label for="tarefa5">Ler um livro.</label>
+           <button id="botaoExcluir" type="button" aria-label="Excluir"><i class="bi bi-trash" aria-hidden="true"></i></button>
+     
+        </li>
+</ul>
+       
+        <ul>
+          <li id="listaTarefas" class="lista-nova">
+            <!-- O JavaScript vai inserir as tarefas aqui --> </li>
+    </ul>
+   
+
+<span aria-checked="true"></span>
+
+<p id="mensagem"></p>
+
+<input type="text" id="novastarefas" placeholder="Digite uma tarefa">
+
+<button id="buttonAdicionar" type="button" aria-label="Adicionar">
+    <i class="bi bi-plus-square"></i>
+</button>
+
+<p>Adicionar mais tarefas!</p>
+
+<p class="cumprir-tarefas">Cumpra as Tarefas</p>
+
+</section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
