@@ -17,6 +17,13 @@ body {
     flex-direction: column;
 }
 
+#card-border {
+    border: solid 2px rgb(149, 147, 147);
+    border-radius: 10px;
+    width: 25em;
+    padding: 2em;
+}
+
 .lista-tarefas {
     display: flex;
     align-items: center;
@@ -80,7 +87,8 @@ li {
 
 .cumprir-tarefas {
     font-weight: bold;
-    margin-top: 20px;
+    margin: 3em 1em  0  0;
+
 }
 
 #listaTarefas {
@@ -109,3 +117,4 @@ li {
 .item-tarefa span {
     overflow-wrap: anywhere;
 }
+
